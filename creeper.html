@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Crepper</h1>
+    <canvas width="600" height="400"></canvas>
+    <!-- <script>
+      let pantalla = document.querySelector("canvas");
+
+      let pincel = pantalla.getContext("2d");
+      pincel.fillStyle = "darkgreen ";
+      pincel.fillRect(0, 0, 350, 300);
+
+      pincel.fillStyle = "red";
+      pincel.beginPath();
+      pincel.moveTo(120, 50);
+      pincel.lineTo(30, 50);
+      pincel.lineTo(30, 140);
+      pincel.lineTo(120, 140);
+      pincel.fill();
+
+      pincel.moveTo(230, 50);
+      pincel.lineTo(320, 50);
+      pincel.lineTo(320, 140);
+      pincel.lineTo(230, 140);
+      pincel.fill();
+
+      pincel.moveTo(120, 140);
+      pincel.lineTo(120, 240);
+      pincel.lineTo(230, 240);
+      pincel.lineTo(230, 140);
+      pincel.fill();
+
+      pincel.moveTo(120, 190);
+      pincel.lineTo(70, 190);
+      pincel.lineTo(70, 300);
+      pincel.lineTo(120, 300);
+      pincel.fill();
+
+      pincel.moveTo(230, 190);
+      pincel.lineTo(280, 190);
+      pincel.lineTo(280, 300);
+      pincel.lineTo(230, 300);
+      pincel.fill(); -->
+    <script>
+      var pantalla = document.querySelector("canvas");
+      var pincel = pantalla.getContext("2d");
+      //cabeza
+      pincel.fillStyle = "gray";
+      pincel.fillRect(200, 50, 350, 300);
+      //ojos
+      pincel.fillStyle = "black";
+      pincel.fillRect(250, 110, 90, 90);
+      pincel.fillRect(410, 110, 90, 90);
+      //nariz
+      pincel.fillRect(340, 200, 70, 100);
+      //boca
+      pincel.fillRect(300, 240, 40, 110);
+      pincel.fillRect(410, 240, 40, 110);
+
+      pincel.fillStyle = "red";
+      pincel.fillRect(350, 300, 52, 30);
+
+      pincel.fill();
+      //   pincel.moveTo(125, 245);
+
+      //   pincel.lineTo(225, 245);
+      //   pincel.lineTo(225, 285);
+      //   pincel.lineTo(125, 285);
+      //   pincel.fillStyle = "red";
+      //   pincel.fill();
+    </script>
+  </body>
+</html>
